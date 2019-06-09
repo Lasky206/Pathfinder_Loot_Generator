@@ -9,7 +9,11 @@ soup = BeautifulSoup(response.text, 'html.parser')
 # posts = soup.findChild('tr')
 # posts = soup.findAll('caption')
 
-for caption in soup.findAll('caption'):
-    # print(caption)
-    if caption.get_text() == 'Table: Potion Costs':
-        print(caption)
+table = soup.findAll('table')[6]
+# table2 = table.findAll('caption','Table: Potion Costs')
+
+for tr in table.findAll('tr'):
+    print('--------------------------------------------------------------------------------------------------')
+    for td in tr.findAll('td'):
+        print(td.get_text())
+        # print(td.get_text().encode('utf-8'))
