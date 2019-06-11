@@ -1,19 +1,5 @@
-from bs4 import BeautifulSoup
-import requests
+import d20pfsrd_classes
 
+d21 = d20pfsrd_classes.d20pfsrd(6)
 
-response = requests.get('https://www.d20pfsrd.com/magic-items/potions')
-
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# posts = soup.findChild('tr')
-# posts = soup.findAll('caption')
-
-table = soup.findAll('table')[6]
-# table2 = table.findAll('caption','Table: Potion Costs')
-
-for tr in table.findAll('tr'):
-    print('--------------------------------------------------------------------------------------------------')
-    for td in tr.findAll('td'):
-        print(td.get_text())
-        # print(td.get_text().encode('utf-8'))
+print(d21.list_generator())
