@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import json
 
 class d20pfsrd:
     def __init__(self,table_num,url):
@@ -37,3 +38,17 @@ class d20pfsrd:
                 tmp[key[i]] = item[i]
             item_stats_dict.append(tmp)
         return item_stats_dict
+
+class scribe:
+    def write_json(self,dict,datacard_name):
+        # with open('./datacards/'+datacard_name) as existing_json_file:
+        #     data = json.load(existing_json_file)
+        #     print(data)
+        with open('./datacards/'+datacard_name,'w') as json_file:
+            json.dump(dict, json_file, ensure_ascii=False, indent=4)
+
+    def printer(self,datacard_name):
+        with open('./datacards/'+datacard_name) as existing_json_file:
+            data = json.load(existing_json_file)
+            data.append({'test':'test2'})
+            return data
