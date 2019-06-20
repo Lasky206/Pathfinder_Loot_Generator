@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import os
+import sys
 
 class d20pfsrd:
     def __init__(self,table_num,url):
@@ -35,9 +37,19 @@ class d20pfsrd:
         for item in item_stats_list:
             tmp = {}
             for i in range(len(item)):
-                tmp[key[i]] = item[i]
+                tmp[key[i]] = item[i].replace('–','-')
             item_stats_dict.append(tmp)
         return item_stats_dict
+
+class File_Handler:
+    def Open_File(self,file_name):
+        if file_name.endswith('.json'):
+            with open(os.path.join(sys.path[0], file_name)) as json_file:
+                data = json.load(json_file)
+                return data
+            json_file.closed
+        else:
+            print('File type not supported')
 
 class scribe:
     def write_json(self,dict,datacard_name):
@@ -47,8 +59,13 @@ class scribe:
         with open('./datacards/'+datacard_name,'w') as json_file:
             json.dump(dict, json_file, ensure_ascii=False, indent=4)
 
-    def printer(self,datacard_name):
+    def append_json(self,datacard_name,input_list):
         with open('./datacards/'+datacard_name) as existing_json_file:
             data = json.load(existing_json_file)
-            data.append({'test':'test2'})
-            return data
+            for i in input_list:
+                data.append(i)
+        existing_json_file.closed
+
+        with open('./datacards/'+datacard_name,'w') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent=4)
+        json_file.closed

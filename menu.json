@@ -1,0 +1,12 @@
+{
+  "Potions":{
+      "Minor Potions":"potions.json",
+      "Medium Potions":"place holder",
+      "Major Potions":"place holder",
+    },
+  "Wands":{
+    "Minor Wands":"wands.json",
+    "Medium Wands":"place holder",
+    "Major Wands":"place holder",
+  }
+}
