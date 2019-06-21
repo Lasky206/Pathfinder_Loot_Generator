@@ -2,11 +2,26 @@
   "Potions":{
       "Minor Potions":"potions.json",
       "Medium Potions":"place holder",
-      "Major Potions":"place holder",
+      "Major Potions":"place holder"
     },
   "Wands":{
     "Minor Wands":"wands.json",
     "Medium Wands":"place holder",
-    "Major Wands":"place holder",
+    "Major Wands":"place holder"
+  },
+  "Staves":{
+    "Minor Staves":"wands.json",
+    "Medium Staves":"place holder",
+    "Major Staves":"place holder"
+  },
+  "Rings":{
+    "Minor Rings":"wands.json",
+    "Medium Rings":"place holder",
+    "Major Rings":"place holder"
+  },
+  "Scrolls":{
+    "Minor Scrolls":"wands.json",
+    "Medium Scrolls":"place holder",
+    "Major Scrolls":"place holder"
   }
 }
