@@ -77,20 +77,16 @@ class scribe:
 class num_finder:
     def stringsearch(string):
         list = []
-        actual = ''
+        num = ''
         for i in range(len(string)):
             if '0' <= string[i] <= '9':
-                actual += string[i]
-            elif actual != '':
-                list.append(actual)
-                actual = ''
-        if actual[0] != '0' and actual != '':
-            print(actual[0])
-            time.sleep(2)
-            list.append(actual)
-        elif actual[0] = '0':
-            actual.pop()
-            list.append(actual)
-            print("popped")
-            time.sleep(2)
+                num += string[i]
+            elif num != '' and num[0] != '0':
+                list.append(num)
+                num = ''
+            elif num != '' and num[0] == '0':
+                list.append(num[1:])
+                num = ''
+        if actual != '':
+            list.append(num)
         return list
