@@ -75,15 +75,18 @@ class scribe:
         json_file.closed
 
 class num_finder:
-    def stringsearch(self, string):
+    def stringsearch(string):
         list = []
         actual = ''
         for i in range(len(string)):
             if '0' <= string[i] <= '9':
                 actual += string[i]
             elif actual != '':
-                list.append(actual):
+                list.append(actual)
                 actual = ''
-        if actual != '':
+        if actual[0] != '0' and actual != '':
+            list.append(actual)
+        elif actual[0] = '0':
+            actual.pop()
             list.append(actual)
         return list
