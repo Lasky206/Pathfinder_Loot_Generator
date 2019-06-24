@@ -85,8 +85,12 @@ class num_finder:
                 list.append(actual)
                 actual = ''
         if actual[0] != '0' and actual != '':
+            print(actual[0])
+            time.sleep(2)
             list.append(actual)
         elif actual[0] = '0':
             actual.pop()
             list.append(actual)
+            print("popped")
+            time.sleep(2)
         return list
