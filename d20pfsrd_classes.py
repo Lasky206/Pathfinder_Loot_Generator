@@ -87,6 +87,6 @@ class num_finder:
             elif num != '' and num[0] == '0':
                 list.append(num[1:])
                 num = ''
-        if actual != '':
+        if num != '':
             list.append(num)
         return list
