@@ -1,149 +1,149 @@
 [
     {
         "Minor": "01-10",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Cure light wounds",
         "Market Price": "50 gp"
     },
     {
         "Minor": "11-13",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Endure elements",
         "Market Price": "50 gp"
     },
     {
         "Minor": "14-15",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Hide from animals",
         "Market Price": "50 gp"
     },
     {
         "Minor": "16-17",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Hide from undead",
         "Market Price": "50 gp"
     },
     {
         "Minor": "18-19",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Jump",
         "Market Price": "50 gp"
     },
     {
         "Minor": "20-22",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Mage armor",
         "Market Price": "50 gp"
     },
     {
         "Minor": "23-25",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Magic fang",
         "Market Price": "50 gp"
     },
     {
         "Minor": "26",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Magic stone",
         "Market Price": "50 gp"
     },
     {
         "Minor": "27-29",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Magic weapon",
         "Market Price": "50 gp"
     },
     {
         "Minor": "30",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Pass without trace",
         "Market Price": "50 gp"
     },
     {
         "Minor": "31-32",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Protection from (alignment)",
         "Market Price": "50 gp"
     },
     {
         "Minor": "33-34",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Remove fear",
         "Market Price": "50 gp"
     },
     {
         "Minor": "35",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Sanctuary",
         "Market Price": "50 gp"
     },
     {
         "Minor": "36-38",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Shield of faith +2",
         "Market Price": "50 gp"
     },
     {
         "Minor": "39",
-        "Medium": "—",
-        "Major": "—",
+        "Medium": "-",
+        "Major": "-",
         "Potion or Oil": "Shillelagh",
         "Market Price": "50 gp"
     },
     {
         "Minor": "40-41",
         "Medium": "01-02",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Bless weapon",
         "Market Price": "50 gp*"
     },
     {
         "Minor": "42-44",
         "Medium": "03-04",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Enlarge person",
         "Market Price": "50 gp*"
     },
     {
         "Minor": "45",
         "Medium": "05",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Reduce person",
         "Market Price": "50 gp*"
     },
     {
         "Minor": "46-47",
         "Medium": "06",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Aid",
         "Market Price": "300 gp"
     },
     {
         "Minor": "48-50",
         "Medium": "07",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Barkskin +2",
         "Market Price": "300 gp"
     },
     {
         "Minor": "51-53",
         "Medium": "08-10",
-        "Major": "—",
-        "Potion or Oil": "Bear’s endurance",
+        "Major": "-",
+        "Potion or Oil": "Bear�s endurance",
         "Market Price": "300 gp"
     },
     {
@@ -156,15 +156,15 @@
     {
         "Minor": "57-59",
         "Medium": "14-16",
-        "Major": "—",
-        "Potion or Oil": "Bull’s strength",
+        "Major": "-",
+        "Potion or Oil": "Bull�s strength",
         "Market Price": "300 gp"
     },
     {
         "Minor": "60-62",
         "Medium": "17-19",
-        "Major": "—",
-        "Potion or Oil": "Cat’s grace",
+        "Major": "-",
+        "Potion or Oil": "Cat�s grace",
         "Market Price": "300 gp"
     },
     {
@@ -177,7 +177,7 @@
     {
         "Minor": "68",
         "Medium": "28",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Darkness",
         "Market Price": "300 gp"
     },
@@ -191,22 +191,22 @@
     {
         "Minor": "72-74",
         "Medium": "31",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Delay poison",
         "Market Price": "300 gp"
     },
     {
         "Minor": "75-76",
         "Medium": "32-33",
-        "Major": "—",
-        "Potion or Oil": "Eagle’s splendor",
+        "Major": "-",
+        "Potion or Oil": "Eagle�s splendor",
         "Market Price": "300 gp"
     },
     {
         "Minor": "77-78",
         "Medium": "34-35",
-        "Major": "—",
-        "Potion or Oil": "Fox’s cunning",
+        "Major": "-",
+        "Potion or Oil": "Fox�s cunning",
         "Market Price": "300 gp"
     },
     {
@@ -226,28 +226,28 @@
     {
         "Minor": "85-86",
         "Medium": "39",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Levitate (potion or oil)",
         "Market Price": "300 gp"
     },
     {
         "Minor": "87",
         "Medium": "40",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Misdirection",
         "Market Price": "300 gp"
     },
     {
         "Minor": "88-89",
         "Medium": "41-42",
-        "Major": "—",
-        "Potion or Oil": "Owl’s wisdom",
+        "Major": "-",
+        "Potion or Oil": "Owl�s wisdom",
         "Market Price": "300 gp"
     },
     {
         "Minor": "90-91",
         "Medium": "43",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Protection from arrows 30 points**",
         "Market Price": "300 gp"
     },
@@ -261,7 +261,7 @@
     {
         "Minor": "94-96",
         "Medium": "45-46",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Resist energy (type) 10",
         "Market Price": "300 gp"
     },
@@ -275,7 +275,7 @@
     {
         "Minor": "98-99",
         "Medium": "49",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Spider climb",
         "Market Price": "300 gp"
     },
@@ -287,309 +287,309 @@
         "Market Price": "300 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "51",
         "Major": "16",
         "Potion or Oil": "Barkskin +3",
         "Market Price": "600 gp*"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "52",
         "Major": "17-18",
         "Potion or Oil": "Shield of faith +4",
         "Market Price": "600 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "53-55",
         "Major": "19-20",
         "Potion or Oil": "Resist energy (type) 20",
         "Market Price": "700 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "56-60",
         "Major": "21-28",
         "Potion or Oil": "Cure serious wounds",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "61",
         "Major": "29",
         "Potion or Oil": "Daylight",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "62-64",
         "Major": "30-32",
         "Potion or Oil": "Displacement",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "65",
         "Major": "33",
         "Potion or Oil": "Flame arrow",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "66-68",
         "Major": "34-38",
         "Potion or Oil": "Fly",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "69",
         "Major": "39",
         "Potion or Oil": "Gaseous form",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "70-71",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Greater magic fang +1",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "72-73",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Greater magic weapon +1",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "74-75",
         "Major": "40-41",
         "Potion or Oil": "Haste",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "76-78",
         "Major": "42-44",
         "Potion or Oil": "Heroism",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "79-80",
         "Major": "45-46",
         "Potion or Oil": "Keen edge",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "81",
         "Major": "47",
         "Potion or Oil": "Magic circle against (alignment)",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "82-83",
-        "Major": "—",
+        "Major": "-",
         "Potion or Oil": "Magic vestment +1",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "84-86",
         "Major": "48-50",
         "Potion or Oil": "Neutralize poison",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "87-88",
         "Major": "51-52",
         "Potion or Oil": "Nondetection",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "89-91",
         "Major": "53-54",
         "Potion or Oil": "Protection from energy (type)",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "92-93",
         "Major": "55",
         "Potion or Oil": "Rage",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "94",
         "Major": "56",
         "Potion or Oil": "Remove blindness/deafness",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "95",
         "Major": "57",
         "Potion or Oil": "Remove curse",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "96",
         "Major": "58",
         "Potion or Oil": "Remove disease",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "97",
         "Major": "59",
         "Potion or Oil": "Tongues",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "98-99",
         "Major": "60",
         "Potion or Oil": "Water breathing",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
+        "Minor": "-",
         "Medium": "100",
         "Major": "61",
         "Potion or Oil": "Water walk",
         "Market Price": "750 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "62-63",
         "Potion or Oil": "Barkskin +4",
         "Market Price": "900 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "64",
         "Potion or Oil": "Shield of faith +5",
         "Market Price": "900 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "65",
         "Potion or Oil": "Protection from arrows 100 points **",
         "Market Price": "1,000 gp*"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "66-68",
         "Potion or Oil": "Good hope",
         "Market Price": "1,050 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "69",
         "Potion or Oil": "Resist energy (type) 30",
         "Market Price": "1,100 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "70-73",
         "Potion or Oil": "Barkskin +5",
         "Market Price": "1,200 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "74-77",
         "Potion or Oil": "Greater magic fang +2",
         "Market Price": "1,200 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "78-81",
         "Potion or Oil": "Greater magic weapon +2",
         "Market Price": "1,200 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "82",
         "Potion or Oil": "Magic vestment +2",
         "Market Price": "1,200 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "83-85",
         "Potion or Oil": "Greater magic fang +3",
         "Market Price": "1,800 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "86-88",
         "Potion or Oil": "Greater magic weapon +3",
         "Market Price": "1,800 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "89-91",
         "Potion or Oil": "Magic vestment +3",
         "Market Price": "1,800 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "92-93",
         "Potion or Oil": "Greater magic fang +4",
         "Market Price": "2,400 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "94-95",
         "Potion or Oil": "Greater magic weapon +4",
         "Market Price": "2,400 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "96-97",
         "Potion or Oil": "Magic vestment +4",
         "Market Price": "2,400 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "98",
         "Potion or Oil": "Greater magic fang +5",
         "Market Price": "3,000 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "99",
         "Potion or Oil": "Greater magic weapon +5",
         "Market Price": "3,000 gp"
     },
     {
-        "Minor": "—",
-        "Medium": "—",
+        "Minor": "-",
+        "Medium": "-",
         "Major": "100",
         "Potion or Oil": "Magic vestment +5",
         "Market Price": "3,000 gp"

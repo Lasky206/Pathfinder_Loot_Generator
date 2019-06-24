@@ -3,6 +3,7 @@ import requests
 import json
 import os
 import sys
+import time
 
 class d20pfsrd:
     def __init__(self,table_num,url):
@@ -37,8 +38,11 @@ class d20pfsrd:
         for item in item_stats_list:
             tmp = {}
             for i in range(len(item)):
-                tmp[key[i]] = item[i].replace('–','-')
+                print(item[i])
+                tmp[key[i]] = item[i].replace('—','-')
             item_stats_dict.append(tmp)
+        # print(tmp)
+        # time.sleep(20)
         return item_stats_dict
 
 class File_Handler:
@@ -69,3 +73,17 @@ class scribe:
         with open('./datacards/'+datacard_name,'w') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         json_file.closed
+
+class num_finder:
+    def stringsearch(self, string):
+        list = []
+        actual = ''
+        for i in range(len(string)):
+            if '0' <= string[i] <= '9':
+                actual += string[i]
+            elif actual != '':
+                list.append(actual):
+                actual = ''
+        if actual != '':
+            list.append(actual)
+        return list
