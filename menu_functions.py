@@ -35,7 +35,7 @@ def main_menu():
         sys.exit(0)
     elif '0' <= choice <= '9':
         if int(choice)-1 in list(range(len(menu_items.keys()))):
-            # print(menu_items[str(menu_keys[int(choice) - 1])])
+            # print(menu_items[str(menu_keys[int(choice) - 1])]) #<--------------------------------------------- REMOVE LINE
             sub_dict = menu_items[str(menu_keys[int(choice) - 1])]
             name = menu_keys[int(choice)-1]
             time.sleep(2)
