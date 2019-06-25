@@ -18,5 +18,5 @@ wr1.write_json(potions,'potions.json')
 # wr1.append_json('rings.json',[{'fake':'list'},{'fake2':'list2'}])
 
 
-startup()
+#startup()
 main_menu()

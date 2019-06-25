@@ -38,7 +38,7 @@ class d20pfsrd:
         for item in item_stats_list:
             tmp = {}
             for i in range(len(item)):
-                print(item[i])
+                # print(item[i]) #<----------------------------------------------- REMOVE LINE
                 tmp[key[i]] = item[i].replace('—','-')
             item_stats_dict.append(tmp)
         # print(tmp)
