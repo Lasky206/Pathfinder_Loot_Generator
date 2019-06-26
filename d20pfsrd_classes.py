@@ -5,6 +5,26 @@ import os
 import sys
 import time
 
+def num_finder(string):
+    list = []
+    num = ''
+    for i in range(len(string)):
+        if '0' <= string[i] <= '9':
+            num += string[i]
+        elif num != '':
+            if num[0] != '0':
+                list.append(num)
+                num = ''
+            elif num[0] == '0':
+                list.append(num[1:])
+                num = ''
+    if num != '':
+        if num[0] != '0':
+            list.append(num)
+        elif num[0] == '0':
+            list.append(num[1:])
+    return list
+
 class d20pfsrd:
     def __init__(self,table_num,url):
         self.response = requests.get(url).content
@@ -16,7 +36,7 @@ class d20pfsrd:
         # self.list1 = []
         # self.list2 = []
 
-    def list_generator(self,num_of_columns,start_column = -1,end_column = -1):
+    def list_generator(self,num_of_columns,rollcharts,start_column = -1,end_column = -1):
         item_stats_list = []
         #---------------------------------#
         # Creates a list of a lists
@@ -40,11 +60,16 @@ class d20pfsrd:
             for i in range(len(item)):
                 # print(item[i]) #<----------------------------------------------- REMOVE LINE
                 tmp[key[i]] = item[i].replace('—','-')
+                if i < rollcharts:
+                    tmp[key[i]] = num_finder(item[i])
+            # sys.exit()
             # print(tmp[key[i]]) #<--------------Test Line
             # sys.exit(0) #<---------------------Test Line
             item_stats_dict.append(tmp)
         # print(tmp)
         # time.sleep(20)
+        # print(item_stats_list)
+        # sys.exit()
         return item_stats_dict
 
 class File_Handler:
@@ -75,20 +100,3 @@ class scribe:
         with open('./datacards/'+datacard_name,'w') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         json_file.closed
-
-class num_finder:
-    def stringsearch(string):
-        list = []
-        num = ''
-        for i in range(len(string)):
-            if '0' <= string[i] <= '9':
-                num += string[i]
-            elif num != '' and num[0] != '0':
-                list.append(num)
-                num = ''
-            elif num != '' and num[0] == '0':
-                list.append(num[1:])
-                num = ''
-        if num != '':
-            list.append(num)
-        return list

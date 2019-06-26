@@ -12,10 +12,14 @@ fh1 = d20pfsrd_classes.File_Handler()
 menu_items = fh1.Open_File('menu.json')
 
 #--------- Datacard Create Example ------------#
-potions = d21.list_generator(4,0,5)
+potions = d21.list_generator(4,3,0,5) #(number of colums, number of rollchart columns, start column, end column)
 wr1.write_json(potions,'potions.json')
 #----------- Append Example -------------------#
 # wr1.append_json('rings.json',[{'fake':'list'},{'fake2':'list2'}])
+
+
+rings = d22.list_generator(4,1,0,3)
+wr1.write_json(rings,'rings.json')
 
 
 #startup()
