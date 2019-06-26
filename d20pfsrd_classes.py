@@ -40,6 +40,8 @@ class d20pfsrd:
             for i in range(len(item)):
                 # print(item[i]) #<----------------------------------------------- REMOVE LINE
                 tmp[key[i]] = item[i].replace('—','-')
+            # print(tmp[key[i]]) #<--------------Test Line
+            # sys.exit(0) #<---------------------Test Line
             item_stats_dict.append(tmp)
         # print(tmp)
         # time.sleep(20)
