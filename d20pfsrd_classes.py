@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import time
+import random
 
 def num_finder(string):
     list = []
@@ -100,3 +101,14 @@ class scribe:
         with open('./datacards/'+datacard_name,'w') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         json_file.closed
+
+class randomizer:
+    def gen_random_loot_d(self,qty,input_list):
+        for i in range(len(input_list)):
+            print(input_list[i])
+        print(qty)
+
+    def gen_random_loot_mutli(self,qty,input_list):
+        for i in range(len(input_list)):
+            print(input_list[i])
+        print(qty)

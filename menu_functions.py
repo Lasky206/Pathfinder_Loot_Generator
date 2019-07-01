@@ -62,7 +62,11 @@ def sub_menu(sub_dict, name):
         main_menu()
     elif '0' <= choice <= '9':
         if int(choice)-1 in list(range(len(sub_dict.keys()))):
-            print(sub_dict[str(menu_keys[int(choice) - 1])])
+            rz1 = d20pfsrd_classes.randomizer()
+            loot_list_path = os.path.join(sys.path[0], 'datacards', sub_dict[str(menu_keys[int(choice) - 1])])
+            loot_list = fh1.Open_File(loot_list_path)
+            rz1.gen_random_loot_d(3, loot_list)
+            # print(sub_dict[str(menu_keys[int(choice) - 1])])
             time.sleep(3)
     else:
         print("Error1!")
